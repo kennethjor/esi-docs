@@ -7,7 +7,7 @@ title: ESI
 
 All ESI Requests should be accompanied by an appropriate User-Agent request header providing a method for CCP to contact the source of the request in the event of an issue.
 
-This could be one or more of the following
+This could be one or more of the following:
 
 - An Email Address (Strongly Preferred)
 - An App Name (Strongly Preferred)
@@ -17,7 +17,7 @@ This could be one or more of the following
 
 ### Best Practice
 
-While User Agents are not a defined web standard, the MDN provides a thoroughly documented set of examples <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent>, Following these standards will ensure your useragent is well understood.
+While User Agents are not a defined web standard, the MDN provides a thoroughly documented set of examples <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent>. Following these standards will ensure your useragent is well understood.
 
 ```text
 AppName/1.2.3 (foo@example.com)
